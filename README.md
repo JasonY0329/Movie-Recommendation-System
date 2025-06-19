@@ -6,12 +6,13 @@ rating is a value in the range of 1 to 5, where 1 is "least favored" and 5 is "m
 
 The Test Data
 There are three test files: test5.txt, test10.txt and test20.txt.
- A pool of movie ratings by 100 users (userid: 201-300). Each user has already rated 5
+A pool of movie ratings by 100 users (userid: 201-300). Each user has already rated 5
 movies. The format of the data is as follows: the file contains 100 blocks of lines. Each block
 contains several triples : (U, M, R), which means that user U gives R points to movie M. Please
 note that in the test file, if R=0, then you are expected to predict the best possible rating
 which user U will give movie M. The following is a block for user 276. (line 6545-6555 of
 test5.txt)
+
 276 42 4 // user 276 gives movie 42 4 points.
 276 85 2 // user 276 gives movie 85 2 points.
 276 194 5 // user 276 gives movie 194 5 points.
