@@ -4,7 +4,8 @@ The training data: a set of movie ratings by 200 users (userid: 1-200) on 1000 m
 lines. Each line contains a triple : (U, M, R), which means that user U gives R points to movie M. In other words, U is the User ID, M is the Movie ID, and R is the corresponding rating. A
 rating is a value in the range of 1 to 5, where 1 is "least favored" and 5 is "most favored".
 
-The Test Data
+The Test Data:
+
 There are three test files: test5.txt, test10.txt and test20.txt.
 A pool of movie ratings by 100 users (userid: 201-300). Each user has already rated 5
 movies. The format of the data is as follows: the file contains 100 blocks of lines. Each block
@@ -12,7 +13,8 @@ contains several triples : (U, M, R), which means that user U gives R points to 
 note that in the test file, if R=0, then you are expected to predict the best possible rating
 which user U will give movie M.
 
-Tasks
+Tasks:
+
 Your task is to design and develop collaborative filtering algorithms that predict the unknown
 ratings in the test data by learning users' preference from the training data.
 Please complete the following experiments:
