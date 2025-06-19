@@ -10,21 +10,7 @@ A pool of movie ratings by 100 users (userid: 201-300). Each user has already ra
 movies. The format of the data is as follows: the file contains 100 blocks of lines. Each block
 contains several triples : (U, M, R), which means that user U gives R points to movie M. Please
 note that in the test file, if R=0, then you are expected to predict the best possible rating
-which user U will give movie M. The following is a block for user 276. (line 6545-6555 of
-test5.txt)
-
-276 42 4 // user 276 gives movie 42 4 points.
-276 85 2 // user 276 gives movie 85 2 points.
-276 194 5 // user 276 gives movie 194 5 points.
-276 208 5 // user 276 gives movie 208 5 points.
-276 585 1 // user 276 gives movie 585 1 point.
-276 4 0 // need to predict user 276's rating for movie 4
-276 26 0 // need to predict user 276's rating for movie 26
-276 33 0 ...
-276 56 0
-276 63 0
-276 67 0
-276 72 0
+which user U will give movie M.
 
 Tasks
 Your task is to design and develop collaborative filtering algorithms that predict the unknown
