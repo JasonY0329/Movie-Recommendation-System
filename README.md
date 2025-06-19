@@ -1,5 +1,5 @@
 Movie Recommendation System
-The Training Data
+
 The training data: a set of movie ratings by 200 users (userid: 1-200) on 1000 movies (movieid: 1-1000). The format of the data is as follows: the file contains 200 blocks (users) of
 lines. Each line contains a triple : (U, M, R), which means that user U gives R points to movie M. In other words, U is the User ID, M is the Movie ID, and R is the corresponding rating. A
 rating is a value in the range of 1 to 5, where 1 is "least favored" and 5 is "most favored".
